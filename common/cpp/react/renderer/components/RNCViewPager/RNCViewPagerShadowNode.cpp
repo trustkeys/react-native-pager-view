@@ -6,7 +6,7 @@
 namespace facebook {
 namespace react {
 
-const char RNCViewPagerComponentName[] = "RNCViewPager";
+//const char RNCViewPagerComponentName[] = "RNCViewPager"; // This lead to error: duplicate symbol 'facebook::react::RNCViewPagerComponentName'
 
 void RNCViewPagerShadowNode::updateStateIfNeeded() {
     ensureUnsealed();
